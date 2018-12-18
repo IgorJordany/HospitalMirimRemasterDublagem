@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Estagio1_2_Boneca.unity
+- path: Assets/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1

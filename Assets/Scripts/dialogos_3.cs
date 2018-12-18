@@ -65,9 +65,42 @@ public class dialogos_3 : MonoBehaviour {
 
 	public Animator animacao;
 
+	public int medicoS;
+	public int pacienteS;
+
 	//AUDIOS
 	public AudioClip Acertou;
 	public AudioClip Errou;
+
+	public AudioClip mr1;
+	public AudioClip mr2;
+	public AudioClip mr3;
+	public AudioClip mr4;
+	public AudioClip mr5;
+
+	public AudioClip fr1;
+	public AudioClip fr2;
+	public AudioClip fr3;
+	public AudioClip fr4;
+	public AudioClip fr5;
+
+	public AudioClip mp1;
+	public AudioClip mp2;
+	public AudioClip mp3;
+	public AudioClip mp4;
+	public AudioClip mp5;
+	public AudioClip mp6;
+	public AudioClip mp7;
+	public AudioClip mp8;
+
+	public AudioClip fp1;
+	public AudioClip fp2;
+	public AudioClip fp3;
+	public AudioClip fp4;
+	public AudioClip fp5;
+	public AudioClip fp6;
+	public AudioClip fp7;
+	public AudioClip fp8;
 
     void Awake(){
         //inicia dizendo qual caricatura deve ser utilizada;
@@ -75,6 +108,8 @@ public class dialogos_3 : MonoBehaviour {
     }
 
 	void Start () {
+		medicoS = PlayerPrefs.GetInt ("selecionadoMedico");
+		pacienteS = PlayerPrefs.GetInt ("selecionadoPaciente");
 
 		dropurso.SetActive(false);
 
@@ -86,6 +121,14 @@ public class dialogos_3 : MonoBehaviour {
 		
 		//como não utilizaremos o drag and drop no inicio do procedimento não tem nescessidade de manter ele ativo;
 		canvasDragDrop.SetActive(false);
+		if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+			GetComponent<AudioSource> ().clip = fr1;
+			GetComponent<AudioSource> ().Play();
+		}
+		if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+			GetComponent<AudioSource> ().clip = mr1;
+			GetComponent<AudioSource> ().Play();
+		}	
 	}
 
 	void Update(){
@@ -114,6 +157,66 @@ public class dialogos_3 : MonoBehaviour {
 
 	public void PrimeirosDialogos(int contadorLocal){
 		dialogosIniciais[contadorLocal].SetActive(true);
+		if (contadorLocal == 0) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fr1;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mr1;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 1) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fr2;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mr2;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 2) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fr3;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mr3;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 3) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fr4;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mr4;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 4) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fr5;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mr5;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
 	}
 
 	public void BotaoDePular(){
@@ -144,6 +247,102 @@ public class dialogos_3 : MonoBehaviour {
 
 	public void abreConversa(int contadorLocal){
 		dialogosDeProcedimento[contadorLocal].SetActive(true);
+		if (contadorLocal == 0) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp1;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp1;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 1) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp2;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp2;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 2) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp3;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp3;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 3) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp4;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp4;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 4) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp5;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp5;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 5) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp6;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp6;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 6) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp7;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp7;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
+		if (contadorLocal == 7) {
+			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
+				print ("MUIE");
+				GetComponent<AudioSource> ().clip = fp8;
+				GetComponent<AudioSource> ().Play();
+			}
+			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
+				print ("HOMI");
+				GetComponent<AudioSource> ().clip = mp8;
+				GetComponent<AudioSource> ().Play();
+			}		
+		}
 	}
 
 	public void ReferenciaParaPularDeDialogo(){
