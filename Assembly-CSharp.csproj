@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\AudioBotoes.cs" />
      <Compile Include="Assets\Scripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\AudioDialogo.cs" />
+     <Compile Include="Assets\Scripts\Dublagem.cs" />
      <Compile Include="Assets\Scripts\FadeSharp.cs" />
      <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\Scripts\PauseMenuSharp.cs" />
