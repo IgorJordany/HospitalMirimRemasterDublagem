@@ -12,26 +12,26 @@ EditorBuildSettings:
     path: Assets/Scenes/CenarioAberto.unity
     guid: 7f6f4fac2ce687942ab80062ba563b50
   - enabled: 1
-    path: Assets/Scenes/estagio1.unity
+    path: Assets/Scenes/UrsoSangue.unity
     guid: bd642fb5c59cb334fb5355cd6c446222
   - enabled: 1
-    path: Assets/Scenes/estagio1_2.unity
+    path: Assets/Scenes/UrsoMedicacao.unity
     guid: 2333375dd40d9f447a4e9a0d6787ee8a
   - enabled: 1
-    path: Assets/Scenes/Estagio1_Boneca.unity
+    path: Assets/Scenes/JujubaSangue.unity
     guid: ab0e5727ad06497409b7d40bd9b8da9d
   - enabled: 1
-    path: Assets/Scenes/Estagio1_2_Boneca.unity
+    path: Assets/Scenes/JujubaMedicacao.unity
     guid: edcac3dfe24b1214b8ef1596e67a579a
   - enabled: 1
-    path: Assets/Scenes/Estagio1_Robo.unity
+    path: Assets/Scenes/RoboSangue.unity
     guid: bde4d57c24bc14e47a93f6eca041926b
   - enabled: 1
-    path: Assets/Scenes/Estagio1_2_Robo.unity
+    path: Assets/Scenes/RoboMedicacao.unity
     guid: f58393e16dc21564ba4214f473486796
   - enabled: 0
-    path: Assets/Scenes/persoangems.unity
+    path: 
     guid: a96aa0c41facecf4a87a1a6f2bd9cd90
   - enabled: 0
-    path: "Assets/Scenes/CEN\xC1RIO TESTE.unity"
+    path: 
     guid: dd3c9ba78927258458a4dee8b9f5ccb6
