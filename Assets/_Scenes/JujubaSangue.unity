@@ -639,7 +639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &119842160
 Transform:
   m_ObjectHideFlags: 0
@@ -654,7 +654,7 @@ Transform:
   - {fileID: 1662638495}
   - {fileID: 1549295350}
   m_Father: {fileID: 180483255}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -13.618001, y: -52.918003, z: -313.95}
 --- !u!114 &119842161
 MonoBehaviour:
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   painelDragDrop: {fileID: 394271668}
   painelDeDialogos: {fileID: 1721130164}
   PauseMenu: {fileID: 31991828}
-  seringaAplicadaNoUrso: {fileID: 119842159}
+  seringaAplicadaNoUrso: {fileID: 1229511631}
   garroteAplicadoNoUrso: {fileID: 1126345520}
   canvasDragDrop: {fileID: 394271668}
   BotaoRetorno: {fileID: 54880169}
@@ -4120,7 +4120,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 954003612}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4129,7 +4129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.010727985, y: 0.045}
   m_AnchorMax: {x: 0.98068005, y: 0.94855744}
-  m_AnchoredPosition: {x: -0.000006198883, y: -0.000002861023}
+  m_AnchoredPosition: {x: 0.000059127808, y: -0.000002861023}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954003614
@@ -4164,8 +4164,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
-    Agora podemos tirar o garrote."
+  m_Text: "J\xE1 que temos um pouquinho do sangue da Jujuba, podemos tirar a seringa.
+    N\xE3o vai doer nada, ok?"
 --- !u!222 &954003615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4433,7 +4433,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046526096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4442,7 +4442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.010727985, y: 0.045}
   m_AnchorMax: {x: 0.98068005, y: 0.94855744}
-  m_AnchoredPosition: {x: -0.000006198883, y: -0.000002861023}
+  m_AnchoredPosition: {x: 0.00005865097, y: -0.000002861023}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046526098
@@ -4477,8 +4477,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "J\xE1 que temos um pouquinho do sangue da Jujuba, podemos tirar a seringa.
-    N\xE3o vai doer nada, ok?"
+  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
+    Agora podemos tirar o garrote."
 --- !u!222 &1046526099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5032,6 +5032,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1220256942
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 180483255}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.414
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_Name
+      value: Seringa Fill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c106c99ae219a1545be89fdeefbee83d, type: 2}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1 &1229511631 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+  m_PrefabInternal: {fileID: 1220256942}
+--- !u!114 &1229511633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229511631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93395523a165e62439287a0d5b11a8fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropurso: {fileID: 1347823415}
+  Seringa: {fileID: 1229511631}
+  garrote: {fileID: 1126345520}
+  spriteGarrote: {fileID: 807158082}
+  animacao: {fileID: 1272439314}
+--- !u!65 &1229511635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229511631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.042080473, y: -0.005311111, z: -0.05129905}
 --- !u!1 &1256587249
 GameObject:
   m_ObjectHideFlags: 0
@@ -5261,7 +5355,7 @@ MonoBehaviour:
   PontuacaoTotal: 0
   procedimentoAtual: 0
   garrote: {fileID: 1126345520}
-  seringa: {fileID: 119842159}
+  seringa: {fileID: 1229511631}
   bandeide: {fileID: 1774367283}
   algodao: {fileID: 1555910228}
   SpriteGarrote: {fileID: 807158082}
@@ -7812,11 +7906,11 @@ RectTransform:
   m_Father: {fileID: 1024962137}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.20479222, y: 0.8366189}
-  m_AnchorMax: {x: 0.404, y: 1}
-  m_AnchoredPosition: {x: -0.5, y: -0.5}
-  m_SizeDelta: {x: 0, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 408, y: 189}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1902009934
 GameObject:
   m_ObjectHideFlags: 0

@@ -2762,6 +2762,42 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bdc40ec038a74984397a444023d1076d, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &394689316 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+  m_PrefabInternal: {fileID: 1667834558}
+--- !u!4 &394689317 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+  m_PrefabInternal: {fileID: 1667834558}
+--- !u!114 &394689318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394689316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93395523a165e62439287a0d5b11a8fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropurso: {fileID: 1552624148}
+  Seringa: {fileID: 394689316}
+  garrote: {fileID: 514909297}
+  spriteGarrote: {fileID: 691480964}
+  animacao: {fileID: 482468816}
+--- !u!65 &394689319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394689316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.042080473, y: -0.005311111, z: -0.05129905}
 --- !u!1 &403738089
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,8 +4003,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
-    Agora podemos tirar o garrote."
+  m_Text: "J\xE1 que temos um pouquinho do sangue do Pequeno Urso, podemos tirar a
+    seringa. N\xE3o vai doer nada, ok?"
 --- !u!222 &543917505
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4408,7 +4444,7 @@ Transform:
   m_Children:
   - {fileID: 1445856286}
   m_Father: {fileID: 1990031833}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676202743
 GameObject:
@@ -7013,7 +7049,7 @@ Transform:
   - {fileID: 726628842}
   - {fileID: 713223725}
   m_Father: {fileID: 1990031833}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -61.789497, y: 52.3447, z: -124.2491}
 --- !u!114 &1368774349
 MonoBehaviour:
@@ -7550,8 +7586,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "J\xE1 que temos um pouquinho do sangue do Pequeno Urso, podemos tirar a
-    seringa. N\xE3o vai doer nada, ok?"
+  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
+    Agora podemos tirar o garrote."
 --- !u!222 &1530431537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7613,7 +7649,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552624148}
   m_LocalRotation: {x: 0.45074672, y: -0.63551867, z: 0.3540002, w: 0.51732713}
-  m_LocalPosition: {x: 0, y: 0, z: 167.9}
+  m_LocalPosition: {x: 0, y: 0, z: 187.5}
   m_LocalScale: {x: 0.7317157, y: 0.7317157, z: 0.7317157}
   m_Children: []
   m_Father: {fileID: 223925409}
@@ -7621,7 +7657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 66.3931, y: -122.321396, z: -31.0661}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -226.5, y: 1.3}
+  m_AnchoredPosition: {x: -226.2, y: 3.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552624150
@@ -7639,7 +7675,7 @@ MonoBehaviour:
   PontuacaoTotal: 0
   procedimentoAtual: 0
   garrote: {fileID: 514909297}
-  seringa: {fileID: 1368774347}
+  seringa: {fileID: 394689316}
   bandeide: {fileID: 1957621558}
   algodao: {fileID: 777448511}
   SpriteGarrote: {fileID: 691480964}
@@ -7893,11 +7929,11 @@ RectTransform:
   m_Father: {fileID: 150488307}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.20479222, y: 0.8366189}
-  m_AnchorMax: {x: 0.404, y: 1}
-  m_AnchoredPosition: {x: -0.5, y: -0.5}
-  m_SizeDelta: {x: 0, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 408, y: 189}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1641529097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7962,6 +7998,84 @@ Transform:
   m_Father: {fileID: 2106170052}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1667834558
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1990031833}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.036
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7495792
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0641804
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.65633553
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.05688276
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_Name
+      value: Seringa Fill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c106c99ae219a1545be89fdeefbee83d, type: 2}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.059000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 97.58401
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 170.16101
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6d60ffe5ba1f27748bd953d10f38dfaa, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1690115647
 GameObject:
   m_ObjectHideFlags: 0
@@ -9333,6 +9447,7 @@ Transform:
   m_LocalPosition: {x: -0.00000000156513, y: 0.39210844, z: 9.403897e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 394689317}
   - {fileID: 1368774348}
   - {fileID: 674920291}
   m_Father: {fileID: 897057634}

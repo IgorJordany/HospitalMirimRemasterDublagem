@@ -289,28 +289,32 @@ public class dialogos_1b : MonoBehaviour {
 			}		
 		}
 		if (contadorLocal == 5) {
-			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
-				print ("MUIE");
-				GetComponent<AudioSource> ().clip = fp6;
-				GetComponent<AudioSource> ().Play();
-			}
-			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
-				print ("HOMI");
-				GetComponent<AudioSource> ().clip = mp6;
-				GetComponent<AudioSource> ().Play();
-			}		
-		}
+            if (medicoS == 0 || medicoS == 3 || medicoS == 5)
+            {
+                print("MUIE");
+                GetComponent<AudioSource>().clip = fp7;
+                GetComponent<AudioSource>().Play();
+            }
+            if (medicoS == 1 || medicoS == 2 || medicoS == 4)
+            {
+                print("HOMI");
+                GetComponent<AudioSource>().clip = mp7;
+                GetComponent<AudioSource>().Play();
+            }
+        }
 		if (contadorLocal == 6) {
-			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
-				print ("MUIE");
-				GetComponent<AudioSource> ().clip = fp7;
-				GetComponent<AudioSource> ().Play();
-			}
-			if (medicoS == 1 || medicoS == 2 || medicoS == 4) {
-				print ("HOMI");
-				GetComponent<AudioSource> ().clip = mp7;
-				GetComponent<AudioSource> ().Play();
-			}		
+            if (medicoS == 0 || medicoS == 3 || medicoS == 5)
+            {
+                print("MUIE");
+                GetComponent<AudioSource>().clip = fp6;
+                GetComponent<AudioSource>().Play();
+            }
+            if (medicoS == 1 || medicoS == 2 || medicoS == 4)
+            {
+                print("HOMI");
+                GetComponent<AudioSource>().clip = mp6;
+                GetComponent<AudioSource>().Play();
+            }
 		}
 		if (contadorLocal == 7) {
 			if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
