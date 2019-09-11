@@ -346,7 +346,7 @@ public class dialogos_1b : MonoBehaviour {
 		if(contadorDeProcedimento == 10){
 			Debug.Log("nada não");
 		}else{
-			GetComponent<AudioSource> ().PlayOneShot (Acertou);
+            controledesom.Instancia.PlayOneShot(Acertou);
 			dialogosDeProcedimento[contadorDeProcedimento].SetActive(false);
 			contadorDeProcedimento++;
 			conversaDeProcedimentos(contadorDeProcedimento);

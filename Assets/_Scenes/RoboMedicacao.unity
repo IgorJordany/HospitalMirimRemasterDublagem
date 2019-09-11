@@ -5349,8 +5349,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
-    Agora que o R0B0 j\xE1 est\xE1 devidamente medicado, podemos retirar o garrote.\n"
+  m_Text: "E a\xED como foi? Sentiu s\xF3 uma picadinha n\xE9? Que Maravilha!!!! Agora
+    que o R0B0 j\xE1 est\xE1 devidamente medicado, podemos retirar o garrote.\n"
 --- !u!222 &1119616024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6931,7 +6931,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Hoje voc\xEA vai ajudar o R0B0 receber sua medica\xE7\xE3o!"
+  m_Text: "Hoje voc\xEA vai ajudar o R0B0 receber a sua medica\xE7\xE3o!"
 --- !u!222 &1470659977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7457,7 +7457,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "E esse furinho? Nosso corpo consegue fechar bem r\xE1pido! \xC9 s\xF3 colocar
-    um curativo."
+    um curativo no lugar onde a agulha entrou."
 --- !u!222 &1573009043
 CanvasRenderer:
   m_ObjectHideFlags: 0

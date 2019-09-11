@@ -9,9 +9,17 @@ public class controledesom : MonoBehaviour {
 	public Sprite ImagemSemSom;
 	public Sprite ImagemComSom;
 	public int comecou = 0;
+    public static AudioSource Instancia;
 
-	// Use this for initialization
-	void Start () {
+    private AudioSource meuAudioSource;
+
+    void Awake()
+    {
+        meuAudioSource = GetComponent<AudioSource>();
+        Instancia = meuAudioSource;
+    }
+    // Use this for initialization
+    void Start () {
 		Scene scene = SceneManager.GetActiveScene();
 
 		somGeral = GameObject.Find("Som Ambiente").GetComponent<AudioSource>();

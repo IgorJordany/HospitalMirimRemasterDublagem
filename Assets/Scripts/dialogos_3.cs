@@ -118,9 +118,9 @@ public class dialogos_3 : MonoBehaviour {
         
 		//começa com os primeiros dialogos de janela inicial;
 		PrimeirosDialogos(contadorDeJanelasIniciais);
-		
-		//como não utilizaremos o drag and drop no inicio do procedimento não tem nescessidade de manter ele ativo;
-		canvasDragDrop.SetActive(false);
+
+        //como não utilizaremos o drag and drop no inicio do procedimento não tem nescessidade de manter ele ativo;
+        canvasDragDrop.SetActive(false);
 		if (medicoS == 0 || medicoS == 3 || medicoS == 5) {
 			GetComponent<AudioSource> ().clip = fr1;
 			GetComponent<AudioSource> ().Play();
@@ -354,8 +354,8 @@ public class dialogos_3 : MonoBehaviour {
 		if(contadorDeProcedimento == 8){
 			Debug.Log ("nada não");
 		}else{
-			GetComponent<AudioSource> ().PlayOneShot (Acertou);
-			dialogosDeProcedimento[contadorDeProcedimento].SetActive(false);
+            controledesom.Instancia.PlayOneShot(Acertou);
+            dialogosDeProcedimento[contadorDeProcedimento].SetActive(false);
 			contadorDeProcedimento++;
 			abreConversa(contadorDeProcedimento);
 			//AQUI

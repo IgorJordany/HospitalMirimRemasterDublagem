@@ -4003,8 +4003,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "J\xE1 que temos um pouquinho do sangue do Pequeno Urso, podemos tirar a
-    seringa. N\xE3o vai doer nada, ok?"
+  m_Text: "J\xE1 que temos um pouquinho do sangue do Pequeno Urso, podemos retirar
+    a seringa. N\xE3o vai doer nada, ok?"
 --- !u!222 &543917505
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7586,8 +7586,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
-    Agora podemos tirar o garrote."
+  m_Text: "E a\xED como foi? Sentiu s\xF3 uma picadinha n\xE9? Que Maravilha!!! Agora
+    podemos tirar o garrote."
 --- !u!222 &1530431537
 CanvasRenderer:
   m_ObjectHideFlags: 0

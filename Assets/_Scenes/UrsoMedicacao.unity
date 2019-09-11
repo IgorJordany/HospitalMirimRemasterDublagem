@@ -1917,7 +1917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Podemos tamb\xE9m tirar a seringa do paciente, j\xE1 que todo o medicamento
+  m_Text: "Podemos tamb\xE9m retirar a seringa do paciente, j\xE1 que todo o medicamento
     j\xE1 foi aplicado."
 --- !u!222 &334824148
 CanvasRenderer:
@@ -5504,9 +5504,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "E a\xED como foi? Ardeu um pouquinho? Ahhh... n\xE3o sentiu nada! Que maravilha!!!
-    Agora que o Pequeno Urso j\xE1 est\xE1 devidamente medicado, podemos retirar o
-    garrote."
+  m_Text: "E a\xED como foi? Sentiu s\xF3 uma picadinha n\xE9? Que Maravilha!!! Agora
+    que o Pequeno Urso j\xE1 est\xE1 devidamente medicado, podemos retirar o garrote."
 --- !u!222 &1119616024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6608,7 +6607,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Depois de colocarmos o garrote, \xE9 preciso limpar o local onde a agulha
-    vai entrar. Para isso, usaremos um algod\xE3o molhado com um pouquinho de \xE1lcool.
+    vai entrar. Para isso, usaremos um algod\xE3o molhado com um pouco de \xE1lcool.
     Arraste o algod\xE3o para a vasilha de \xE1lcool."
 --- !u!222 &1453868736
 CanvasRenderer:
